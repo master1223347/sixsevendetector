@@ -53,7 +53,7 @@ while True:
     current_time = time.time()
     if class_name == "six seven" and current_time - last_trigger_time > pause_seconds:
         # Show the sixseven.png image
-        cv2.imshow("Detected Six Seven", sixseven_image)
+        cv2.imshow("Six Sevennn", sixseven_image)
         cv2.waitKey(1000)  # Wait 1 second
         last_trigger_time = current_time
 
